@@ -1,0 +1,5 @@
+string direction
+float64 angular_velocity
+float64 time
+---
+bool success
