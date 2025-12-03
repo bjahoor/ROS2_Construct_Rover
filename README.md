@@ -38,11 +38,11 @@ I have detailed the function of each directory, more specifically the nodes belo
 - `basics_ros2_multithreading`
   - `scripts`
     - `function.py`: status logger with no ros2 callbacks
-    - `callback_fucntion.py`: status logger that uses `rclpy.spin(node)`
+    - `callback_function.py`: status logger that uses `rclpy.spin(node)`
     - `callback_spinonce_function.py`: status logger that used `rclpy.spin_once(node)`
-    - `greentest.py`: opens OpenCV window with HSV trackbars to highlight "green"
+    - `green_test.py`: opens OpenCV window with HSV trackbars to highlight "green"
     - `green_detector_node.py`: runs `PlantDetectorNode` (to rotate robot for up to 10 secs until plant is detected), when `GreenDetectorNode` service is called, green is highlighted using `MultiThreadedExecutor` to avoid conflicts
-    - `plant_detector.py`: has `PlantDetectorNode'
+    - `plant_detector.py`: has `PlantDetectorNode`
     - `plant_detector_multithreading.py`: has two threads
     - `plant_detector_multithreading_callbackgroups.py`: actually declares mutually exclusive callback groups
    
