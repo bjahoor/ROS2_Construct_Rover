@@ -1,6 +1,8 @@
 # ROS2_Construct_Rover
 
-This project was developed as I was learning to use ROS2, it showcases all the fundemental capabilities of ROS2 Humble middleware in python. Code was developed on a web-based virtual machine using "https://app.theconstruct.ai/", which has built-in features such as Gazebo, as well as an evaluation tool to validate my code, which is why you may notice some funny details (and this explain why I had to follow cetain naming conventions i.e. "quiz"). I have detailed the function of each directory, more specifically the nodes below:
+This project was developed as I was learning to use ROS2, it showcases all the fundemental capabilities of ROS2 Humble middleware in python. Code was developed on a web-based virtual machine using "https://app.theconstruct.ai/". This has built-in features such as Gazebo, as well as an evaluation tool to validate my code, which is why you may notice some funny details (and this explain why I had to follow cetain naming conventions i.e. "quiz").
+
+I have detailed the function of each directory, more specifically the nodes below:
 
 - `services_quiz_srv`
   - `turn_s_server.py`
