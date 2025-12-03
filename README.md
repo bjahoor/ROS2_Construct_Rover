@@ -63,7 +63,7 @@ I have detailed the function of each directory, more specifically the nodes belo
     - `PlantDetector` sees plant, pose is published (https://bitbucket.org/theconstructcore/basic_ros2_extra_files/src/main/)
   - `mars_rover_status_s_server.py` & `mars_rover_status_s_client.py`
     - `Trigger` service communication for mock robot status loggin
-  - `text_recog.py`: OCR using: https://bitbucket.org/theconstructcore/basic_ros2_extra_files/src/main/
+  - `text_recog.py`: OCR using: https://github.com/LaggyHammer/real-time-OCR
   - `text_recog_node.py`: OCR subscriber node
   - `text_recog_s_server.py`: client to log text detection
   - `text_recog_s_client.py`: service added for text detection
