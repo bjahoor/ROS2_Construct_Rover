@@ -1,6 +1,6 @@
 # ROS2_Construct_Rover
 
-This project was developed as I was learning to use ROS2, it showcases all the fundemental capabilities of ROS2 Humble middleware in python. Code was developed on a web-based virtual machine using "https://app.theconstruct.ai/". This has built-in features such as Gazebo, as well as an evaluation tool to validate my code, which is why you may notice some funny details (and this explain why I had to follow cetain naming conventions i.e. "quiz").
+This project was developed as I was learning to use ROS2, it showcases all the fundamental capabilities of ROS2 Humble middleware in python. Code was developed on a web-based virtual machine using "https://app.theconstruct.ai/". This has built-in features such as Gazebo, as well as an evaluation tool to validate my code, which is why you may notice some funny details (and this explain why I had to follow certain naming conventions i.e. "quiz").
 
 I have detailed the function of each directory, more specifically the nodes below:
 
@@ -12,11 +12,11 @@ I have detailed the function of each directory, more specifically the nodes belo
     - calls `/turn` service
 
 - `actions_quiz`
-  - `actions_quiz_sever.py`
+  - `actions_quiz_server.py`
     - offers distance action
-    - sets up Nav2 localizations
+    - sets up Nav2 localization
     - call Nav2 `NavigateToPose` action
-    - tracks `/odom` -> calulates `distance_left` -> publishes data to client
+    - tracks `/odom` -> calculates `distance_left` -> publishes data to client
   - `actions_quiz_client.py`
     - sends goal to action server
     - logs extracted `distance_left` feedback from server
@@ -44,7 +44,7 @@ I have detailed the function of each directory, more specifically the nodes belo
     - `green_detector_node.py`: runs `PlantDetectorNode` (to rotate robot for up to 10 secs until plant is detected), when `GreenDetectorNode` service is called, green is highlighted using `MultiThreadedExecutor` to avoid conflicts
     - `plant_detector.py`: has `PlantDetectorNode'
     - `plant_detector_multithreading.py`: has two threads
-    - `plant_detector_multithreading_callbackgroups.py`: actually declares mutally exclusive callback groups
+    - `plant_detector_multithreading_callbackgroups.py`: actually declares mutually exclusive callback groups
    
 - `mars_rover_tasks`
   - `subscriber_obstacle_detector.py`
@@ -53,7 +53,7 @@ I have detailed the function of each directory, more specifically the nodes belo
   - `publish_mars_rover_move.py`
     - test node to move rover
   - `autonomous_exploration.py`
-    - sectored bostacle detection
+    - sectored obstacle detection
     - `/odom` position tracking
     - wanders till certain distance from origin, then returns to (0,0)
   - `plant_detector.py`
@@ -62,7 +62,7 @@ I have detailed the function of each directory, more specifically the nodes belo
     - subscribes to camera & odom
     - `PlantDetector` sees plant, pose is published (https://bitbucket.org/theconstructcore/basic_ros2_extra_files/src/main/)
   - `mars_rover_status_s_server.py` & `mars_rover_status_s_client.py`
-    - `Trigger` service communication for mock robot status loggin
+    - `Trigger` service communication for mock robot status logging
   - `text_recog.py`: OCR using: https://github.com/LaggyHammer/real-time-OCR
   - `text_recog_node.py`: OCR subscriber node
   - `text_recog_s_server.py`: client to log text detection
@@ -72,7 +72,7 @@ I have detailed the function of each directory, more specifically the nodes belo
 
 - `mars_rover_systems`
   - `heartbeat.py`
-    - loggin timer callbacks
+    - logging timer callbacks
     - multiple entrypoints for multiple nodes using the same class
   - `temperature_monitor.py`
     - timer callback with warning logs
