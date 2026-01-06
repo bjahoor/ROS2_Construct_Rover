@@ -2,6 +2,15 @@
 
 This project was developed as I was learning to use ROS2, it showcases all the fundamental capabilities of ROS2 Humble middleware in python. Code was developed on a web-based virtual machine using "https://app.theconstruct.ai/". This has built-in features such as Gazebo, as well as an evaluation tool to validate my code, which is why you may notice some funny details (and this explain why I had to follow certain naming conventions i.e. "quiz").
 
+---
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/31e5459d-93b8-4013-8841-6ce3ebdfbfc3" />
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/22cd77b0-9fa3-4e26-a1c9-1e1d46b30c88" />
+
+
+---
+
 I have detailed the function of each directory, more specifically the nodes below:
 
 - `services_quiz_srv`
