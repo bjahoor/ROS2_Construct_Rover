@@ -6,9 +6,6 @@ This project was developed as I was learning to use ROS2, it showcases all the f
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/31e5459d-93b8-4013-8841-6ce3ebdfbfc3" />
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/22cd77b0-9fa3-4e26-a1c9-1e1d46b30c88" />
-
-
 ---
 
 I have detailed the function of each directory, more specifically the nodes below:
