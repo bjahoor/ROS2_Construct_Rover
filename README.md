@@ -4,12 +4,6 @@ This project was developed as I was learning to use ROS2, it showcases all the f
 
 ---
 
-# Architechture Diagram
-
-
-
----
-
 I have detailed the function of each directory, more specifically the nodes below:
 
 - `services_quiz_srv`
