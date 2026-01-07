@@ -4,7 +4,9 @@ This project was developed as I was learning to use ROS2, it showcases all the f
 
 ---
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/31e5459d-93b8-4013-8841-6ce3ebdfbfc3" />
+# Architechture Diagram
+
+
 
 ---
 
